@@ -1,152 +1,69 @@
 <!doctype html>
-<html lang="fr-fr">
+<html lang="fr">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="orinoco.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="orinoco css.css">
     <script src="https://kit.fontawesome.com/94fcc70bcf.js" crossorigin="anonymous"></script>
     <title>Accueil - Orinoco </title>
+
 </head>
+
 
 <body>
 
-    <div class="page_container">
+    <!-- navbar -->
 
-        <!-- navbar -->
-        <nav class="navbar">
+    <nav class="navbar">
 
-            <img src="images/logo.png" alt="logo orinoco " class="logo">
-            <div class="panierre"><i class="fas fa-cart-arrow-down fa-2x" src="#"></i></div>
-        </nav>
-        <!-- navbar -->
+        <div class="container_logo"><img src="images/logo.png" alt="logo orinoco " class="logo"> </div>
 
-        <div id="container_central">
+        <div class="container_navbar_text">
 
-            <div class="box">
+            <div class="nav_panier"> <a href="#"> Panier </a> </div>
 
-                <div class="box_contour">
-
-                    <div class="box_photo1">
-                        <img src="images/teddy_1.jpg" alt="ours en peluche" class="ours">
-                    </div>
-
-                    <div class="box_txt_bas">
-                        <p>Norbert</p>
-                    </div>
-
-                    <div class="price">
-                        <p>2900$</p>
-                    </div>
-
-                    <div><a class="btn_vlp" href="teddy_norbert.html">voir le produit</a></div>
-                </div>
-            </div>
-
-            <div class="box">
-
-                <div class="box_contour">
-
-                    <div class="box_photo2">
-                        <img src="images/teddy_2.jpg" alt="ours en peluche" class="ours">
-                    </div>
-
-                    <div class="box_txt_bas">
-                        <p>Arnold </p>
-                    </div>
-
-                    <div class="price">
-                        <p>3900$</p>
-                    </div>
-
-                    <div><a class="btn_vlp" href="teddy_arnold.html">voir le produit</a></div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- insérer une bande avec plusieur image en long sur le bas -->
-
-    <div class="container_end">
-
-        <div class="box_bas">
-
-            <div class="box_contour">
-
-                <div class="box_photo3">
-                    <img src="images/teddy_3.jpg" alt="ours en peluche" class="ours_bas">
-                </div>
-
-                <div class="box_txt_bas">
-                    <p>Lenny and Carl</p>
-                </div>
-
-
-                <div class="price">
-                    <p>5900$</p>
-                </div>
-
-                <div class="retouche_bas"><a class="btn_vlp" href="teddy_LennyAndCarl.html">voir le produit</a></div>
-            </div>
+            <div class="nav_panier"> <a href="#"> A propos </a> </div>
 
         </div>
 
+    </nav>
 
-        <div class="box_bas">
+    <!-- navbar -->
 
-            <div class="box_contour">
+    <!-- Les 5 fiches produits pour les ours en peluches-->
 
-                <div class="box_photo4">
-                    <img src="images/teddy_4.jpg" alt="ours en peluche" class="ours_bas">
-                </div>
+    <main class="main_card">     
 
-                <div class="box_txt_bas">
-                    <p>Gustav</p>
-                </div>
+        <ul id="bear"></ul>
 
+    </main>
 
-                <div class="price">
-                    <p>4500$</p>
-                </div>
+        <!-- Partie footer - rs -->
 
-                <div class="retouche_bas"><a class="btn_vlp" href="teddy_Gustav.html">voir le produit</a></div>
-            </div>
-        </div>
-
-
-        <div class="box_bas">
-
-            <div class="box_contour">
-
-                <div class="box_photo5">
-                    <img src="images/teddy_5.jpg" alt="ours en peluche" class="ours_bas">
-                </div>
-
-                <div class="box_txt_bas">
-                    <p>Garfunkel </p>
-                </div>
-
-
-                <div class="price">
-                    <p>5500$</p>
-                </div>
-
-                <div class="retouche_bas"><a class="btn_vlp" href="teddy_Garfunkel.html">voir le produit</a></div>
-            </div>
-        </div>
-
-
-    </div>
-
-    <footer>
+    <footer> 
 
         <div class="footer_container">
 
+            <ul class="ul_footer">
+                <li class="li_footer">Nous contacter</li>
+                <li class="li_footer">Nos partenaires</li>
+                <li class="li_footer">Conditions générales</li>
+            </ul>
 
-            <div class="footer_bot"></div>
+            <div class="font_footer">
+
+                <div class="font_ic"><i class="fab fa-facebook-square fa-4x"></i></div>
+                <div class="font_ic"><i class="fab fa-twitter fa-4x"></i></div>
+                <div class="font_ic"><i class="fab fa-instagram fa-4x"></i></div>
+
+            </div>
+
         </div>
 
     </footer>
 
 </body>
+
+<script src="acceuil.js"></script>
 
 </html>
